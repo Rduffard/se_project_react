@@ -30,7 +30,8 @@ function App() {
     setSelectedCard(card);
   };
 
-  const handleAddClick = () => {
+  const handleAddClick = (event) => {
+    event.preventDefault();
     setActiveModal("add-garment");
   };
 
