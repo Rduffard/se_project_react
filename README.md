@@ -9,7 +9,7 @@
 - Links
 
 **Intro**
-This application called "What to Wear" is a tool to use to pick out clothing based on current weather conditions. It filters trough clothing items, and suggests appropriate outfit choices.
+This application called "What to Wear" is a tool used to pick out clothing based on current weather conditions. It filters trough clothing items, and suggests appropriate outfit choices.
 
 **Technologies Used**
 
@@ -34,6 +34,7 @@ This application called "What to Wear" is a tool to use to pick out clothing bas
 
 **Links**
 
--
+- repro - https://github.com/Rduffard/se_project_react
+- github pages - https://rduffard.github.io/se_project_react/
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
