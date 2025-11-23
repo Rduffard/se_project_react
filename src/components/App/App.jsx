@@ -60,7 +60,7 @@ function App() {
         <Footer />
       </div>
       <ModalWithForm
-        name="Add-garment"
+        name="add-garment"
         title="New garment"
         buttonText="Add garment"
         activeModal={activeModal}
@@ -76,7 +76,7 @@ function App() {
           ></input>
         </label>
         <label htmlFor="imageUrl" className="modal__label">
-          Name{" "}
+          Image{" "}
           <input
             placeholder="Image URL"
             id="imageUrl"

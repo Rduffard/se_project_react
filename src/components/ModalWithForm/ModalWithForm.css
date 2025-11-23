@@ -7,16 +7,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0000004d;
   visibility: hidden;
 }
 
 .modal_opened {
   visibility: visible;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal__title {
-  margin: 0;
+  font-family: "Cabinet Grotesk", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0, 0 24px 0;
 }
 
 .modal__content {
@@ -26,12 +28,18 @@
   max-width: 496px;
   box-sizing: border-box;
   width: 100%;
+  border-radius: 20px;
 }
 
 .modal__close {
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 20px;
   right: 28px;
+  background-image: url(../../assets/close-icon-grey.png);
+  border: none;
+  background-color: transparent;
 }
 
 .modal__form {
@@ -40,12 +48,30 @@
 }
 
 .modal__input {
+  margin-top: 8px;
   display: block;
+  width: 440px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.modal__legend {
+  margin-bottom: 12px;
 }
 
 .modal__radio-buttons {
+  margin-top: 8px;
   border: none;
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+.modal__submit {
+  border: none;
+  margin-top: 32px;
+  width: 124px;
+  height: 36px;
+  border-radius: 8px;
 }

@@ -1,0 +1,32 @@
+.modal__image {
+  width: 498px;
+  height: 498px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.modal__content_type_image {
+  padding: 0;
+  width: 498px;
+  border-radius: 20px;
+}
+
+.modal__caption {
+  margin: 20px 0 12px 32px;
+}
+
+.modal__weather {
+  margin: 0 0 32px 32px;
+}
+
+.modal__close-item-modal {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/close-icon.png);
+  border: none;
+  background-color: transparent;
+}
