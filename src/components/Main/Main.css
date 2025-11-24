@@ -1,6 +1,7 @@
 .cards {
   padding: 0;
   margin: 0;
+  font-family: "Cabinet Grotesk", Arial, sans-serif;
 }
 
 .cards__list {

@@ -3,6 +3,7 @@
   width: 323px;
   display: flex;
   justify-content: center;
+  font-family: "Cabinet Grotesk", Arial, sans-serif;
 }
 
 .card__title {

@@ -4,10 +4,10 @@
   padding: 32px 0 28px;
   background-color: #f3f3f3;
   margin-bottom: 28px;
+  font-family: "Cabinet Grotesk", Arial, sans-serif;
 }
 
 .header__title {
-  font-family: "Cabinet Grotesk", Arial, sans-serif;
   font-weight: 700;
 }
 
