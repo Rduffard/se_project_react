@@ -32,6 +32,11 @@ This application called "What to Wear" is a tool used to pick out clothing based
 - Filtering an array of clothing items to suggest clothing based on temperature.
 - Use of modals for adding clothing items to the array.
 
+**Project Pitch**
+
+- Check out [this video](https://drive.google.com/file/d/1lOvhz-yUweDTbH13ihY3znS_lLQI0J90/view?usp=drive_link), where I describe my
+  project and some challenges I faced while building it.
+
 **Links**
 
 - Project Presentation Video - https://drive.google.com/file/d/1lOvhz-yUweDTbH13ihY3znS_lLQI0J90/view?usp=drive_link
