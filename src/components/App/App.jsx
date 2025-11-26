@@ -57,7 +57,6 @@ function App() {
   };
 
   const handleDeleteItem = (card) => {
-    // assuming your cards have an `_id` field from the backend
     const id = card._id;
 
     removeItem(id)
@@ -85,14 +84,6 @@ function App() {
         setClothingItems([...data].reverse());
       })
       .catch(console.error);
-
-    //TODO:
-    // - Add delete button to the preview modal
-    // - Declare deleteItemHandler function here and pass it to ItemModal
-    // - Inside preview modal, pass the ID of the selected card to the deleteItemHandler
-    // - Use handler pattern found in ItemCard for consistency
-    // - Inside the handler, call the deleteItem API function and pass the ID
-    // - On success, remove the item from the array using filer?
   }, []);
 
   return (
@@ -119,6 +110,7 @@ function App() {
                 <Profile
                   clothingItems={clothingItems}
                   handleCardClick={handleCardClick}
+                  handleAddClick={handleAddClick}
                 />
               }
             />
