@@ -1,14 +1,19 @@
-.modal__image {
+.modal__content {
   width: 498px;
+}
+
+.modal__image {
+  width: 100%;
   height: 498px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  display: block;
+  object-fit: cover;
 }
 
 .modal__content_type_image {
   padding: 0;
   width: 498px;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .modal__caption {
@@ -29,4 +34,19 @@
   background-image: url(../../assets/close-icon-white.png);
   border: none;
   background-color: transparent;
+}
+
+.modal__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal__delete-btn {
+  height: 20px;
+  background-color: white;
+  border: none;
+  color: #ff4d00;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 20px 34px 0 0;
 }

@@ -34,6 +34,7 @@ This application called "What to Wear" is a tool used to pick out clothing based
 
 **Links**
 
+- Project Presentation Video - https://drive.google.com/file/d/1lOvhz-yUweDTbH13ihY3znS_lLQI0J90/view?usp=drive_link
 - repro - https://github.com/Rduffard/se_project_react
 - github pages - https://rduffard.github.io/se_project_react/
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
