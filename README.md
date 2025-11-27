@@ -32,6 +32,10 @@ This application called "What to Wear" is a tool used to pick out clothing based
 - Filtering an array of clothing items to suggest clothing based on temperature.
 - Use of modals for adding clothing items to the array.
 
+**Backend**
+
+- This project has a mock json server at port 3001 and does not have a backend. This has caused confusion for reviews, so I figured I'd put this note here.
+
 **Project Pitch**
 
 - Check out [this video](https://drive.google.com/file/d/1lOvhz-yUweDTbH13ihY3znS_lLQI0J90/view?usp=drive_link), where I describe my
